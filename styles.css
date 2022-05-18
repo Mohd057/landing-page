@@ -10,10 +10,7 @@ body {
     display: flex;
     margin:0px;
     padding:0px;
-    flex-direction: column;
-    
-    
-
+    flex-direction: column;    
 }
 
 .ONE {
@@ -112,7 +109,6 @@ img {
     display: flex;
     justify-content: center;
     
-    
 }
 
 .info {
@@ -145,14 +141,76 @@ img {
     background-color: #e5e7eb;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    display: flex;
+    justify-content:center; 
+
+}
+
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    
+
+
+}
+
+.thor {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 550px;
+
+
 }
 
 .FOUR {
-    background-color: white;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    background-color: white; 
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+}
 
-    
+
+.leftfour {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+#buttonfour {
+    border: 2px solid white;
+    margin-left: 350px;
+}
+
+.rightfour {
+    background-color: #3882f6;
+    display: flex;
+    align-items:flex-end; 
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
 }
 
 .FOOTER {
@@ -160,4 +218,6 @@ img {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-top: auto;
+    display: flex;
+    justify-content: center;
 }
